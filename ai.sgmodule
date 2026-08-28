@@ -1,0 +1,9 @@
+#!name=ai-mac
+#!desc=Surge AI Mac
+
+[General]
+
+[Rule]
+PROCESS-NAME,"/Applications/ChatGPT.app/*",Proxy
+PROCESS-NAME,"codex*",Proxy
+PROCESS-NAME,"SkyComputerUseService*",Proxy
