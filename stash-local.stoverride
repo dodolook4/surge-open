@@ -2,18 +2,22 @@ name: local-group
 desc: 区域策略分组
 
 proxy-groups:
+
 - include-all: true
   filter: 'JP'
   name: local-jp
   type: select
+
 - include-all: true
   filter: 'HK'
   name: local-hk
   type: select
+
 - include-all: true
   filter: 'US'
   name: local-us
   type: select
+
 - include-all: true
   filter: 'KR'
   name: local-kr
