@@ -1,0 +1,20 @@
+name: local-group
+desc: 区域策略分组
+
+proxy-groups:
+- include-all: true
+  filter: 'JP'
+  name: smart-jp
+  type: select
+- include-all: true
+  filter: 'HK'
+  name: smart-hk
+  type: select
+- include-all: true
+  filter: 'US'
+  name: smart-hk
+  type: select
+- include-all: true
+  filter: 'KR'
+  name: smart-hk
+  type: select
