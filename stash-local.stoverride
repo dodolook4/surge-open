@@ -4,17 +4,17 @@ desc: 区域策略分组
 proxy-groups:
 - include-all: true
   filter: 'JP'
-  name: smart-jp
+  name: local-jp
   type: select
 - include-all: true
   filter: 'HK'
-  name: smart-hk
+  name: local-hk
   type: select
 - include-all: true
   filter: 'US'
-  name: smart-hk
+  name: local-us
   type: select
 - include-all: true
   filter: 'KR'
-  name: smart-hk
+  name: local-kr
   type: select
