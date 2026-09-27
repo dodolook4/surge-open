@@ -2,7 +2,13 @@ name: local-group
 desc: 区域策略分组
 
 proxy-groups:
-
+- name: "香港节点"
+    type: url-test
+    url: http://gstatic.com
+    interval: 300
+    use:
+      - UPear
+    filter: 'HK'
 - include-all: true
   filter: 'JP'
   name: local-jp
