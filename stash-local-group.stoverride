@@ -27,14 +27,3 @@ proxy-groups:
   filter: 'TW'
   name: local-tw
   type: select
-
-rule-providers:
-  Netflix:
-    type: http
-    behavior: classical
-    url: "https://githubusercontent.com"
-    path: ./ruleset/netflix.list
-    interval: 86400
-
-rules:
-  - RULE-SET,Netflix,local-tw
