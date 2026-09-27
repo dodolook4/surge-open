@@ -22,3 +22,8 @@ proxy-groups:
   filter: 'KR'
   name: local-kr
   type: select
+
+- include-all: true
+  filter: 'TW'
+  name: local-tw
+  type: select
