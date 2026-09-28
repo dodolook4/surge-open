@@ -2,4 +2,4 @@
 #!desc=Surge Netflix
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix_IP.list,smart-hk,no-resolve
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list,smart-hk
