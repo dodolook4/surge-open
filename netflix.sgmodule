@@ -1,5 +1,0 @@
-#!name=surge-netflix
-#!desc=Surge Netflix HK
-
-[Rule]
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list,smart-hk
