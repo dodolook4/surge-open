@@ -7,3 +7,6 @@
 PROCESS-NAME,"/Applications/ChatGPT.app/*",Proxy
 PROCESS-NAME,"codex*",Proxy
 PROCESS-NAME,"SkyComputerUseService*",Proxy
+PROCESS-NAME,"/Applications/Antigravity.app/*",Proxy
+PROCESS-NAME,"/Applications/Antigravity IDE.app/*",Proxy
+PROCESS-NAME,"/Applications/Gemini.app/*",Proxy
