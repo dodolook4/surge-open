@@ -1,0 +1,13 @@
+#!name=Magpie
+#!desc=解决 Magpie 与 Surge 系统代理及增强模式的兼容问题
+#!system=mac
+
+[General]
+skip-proxy = %APPEND% , ::1
+
+[Rule]
+IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+IP-CIDR6,::1/128,DIRECT,no-resolve
+DOMAIN,localhost,DIRECT
+# （可选）若开启了局域网共享供其他设备连入，放行 3425 端口
+DEST-PORT,3425,DIRECT
