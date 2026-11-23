@@ -1,0 +1,9 @@
+#!name=MacVM
+#!desc=解决 Mac VM 与 Surge 系统代理及增强模式的兼容问题
+#!system=mac
+
+[General]
+skip-proxy = %APPEND% , 10.211.55.0/8
+
+[Rule]
+IP-CIDR,10.211.55.0/8,DIRECT,no-resolve
